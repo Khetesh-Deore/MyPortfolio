@@ -1,5 +1,6 @@
 import React from 'react';
 import { ExternalLink, Github, Code, Globe } from 'lucide-react';
+import ParticleBackground from './ParticleBackground';
 
 const Projects: React.FC = () => {
   const projects = [
@@ -42,14 +43,15 @@ const Projects: React.FC = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-gray-50">
+    <section id="projects" className="relative py-20 bg-gray-900 overflow-hidden">
+      <ParticleBackground />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-playfair font-bold text-gray-900 mb-4">
-            Featured <span className="text-gold">Projects</span>
+          <h2 className="text-4xl sm:text-5xl font-playfair font-bold text-white mb-4">
+            Featured <span className="text-blue-400">Projects</span>
           </h2>
-          <div className="w-24 h-1 bg-gold mx-auto mb-6"></div>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <div className="w-24 h-1 bg-blue-400 mx-auto mb-6"></div>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Showcasing my journey through innovative solutions and technical challenges
           </p>
         </div>
@@ -57,7 +59,7 @@ const Projects: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <div key={index} className="group">
-              <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <div className="bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                 {/* Project Header */}
                 <div className={`h-48 bg-gradient-to-br ${project.gradient} relative overflow-hidden`}>
                   <div className="absolute inset-0 bg-black/20"></div>
@@ -73,11 +75,11 @@ const Projects: React.FC = () => {
 
                 {/* Project Content */}
                 <div className="p-6">
-                  <h3 className="text-xl font-playfair font-bold text-gray-900 mb-3">
+                  <h3 className="text-xl font-playfair font-bold text-white mb-3">
                     {project.title}
                   </h3>
                   
-                  <p className="text-gray-600 mb-4 leading-relaxed">
+                  <p className="text-gray-300 mb-4 leading-relaxed">
                     {project.description}
                   </p>
                   
@@ -86,7 +88,7 @@ const Projects: React.FC = () => {
                     {project.tech.map((tech, techIndex) => (
                       <span
                         key={techIndex}
-                        className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium"
+                        className="px-3 py-1 bg-gray-700 text-gray-300 rounded-full text-sm font-medium"
                       >
                         {tech}
                       </span>
@@ -96,7 +98,7 @@ const Projects: React.FC = () => {
                   {/* Project Links */}
                   <div className="flex space-x-4">
                     <button
-                      className="flex items-center space-x-2 px-4 py-2 bg-gold hover:bg-gold/90 text-white rounded-lg transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+                      className="flex items-center space-x-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
                       disabled={!project.liveLink}
                     >
                       <Globe className="w-4 h-4" />
@@ -104,7 +106,7 @@ const Projects: React.FC = () => {
                     </button>
                     
                     <button
-                      className="flex items-center space-x-2 px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white rounded-lg transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+                      className="flex items-center space-x-2 px-4 py-2 bg-gray-700 hover:bg-gray-600 text-white rounded-lg transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
                       disabled={!project.githubLink}
                     >
                       <Github className="w-4 h-4" />
@@ -119,8 +121,8 @@ const Projects: React.FC = () => {
 
         {/* Note for Future Updates */}
         <div className="mt-12 text-center">
-          <div className="bg-gold/10 rounded-lg p-6 max-w-2xl mx-auto">
-            <p className="text-gray-700 font-medium">
+          <div className="bg-blue-500/10 rounded-lg p-6 max-w-2xl mx-auto">
+            <p className="text-gray-300 font-medium">
               🚀 More projects are coming soon! I'm constantly working on new and exciting applications. 
               Stay tuned for updates with live demos and source code.
             </p>

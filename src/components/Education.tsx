@@ -1,5 +1,6 @@
 import React from 'react';
 import { GraduationCap, Calendar, MapPin, Award } from 'lucide-react';
+import ParticleBackground from './ParticleBackground';
 
 const Education: React.FC = () => {
   const educationData = [
@@ -42,13 +43,14 @@ const Education: React.FC = () => {
   ];
 
   return (
-    <section id="education" className="py-20 bg-gray-900">
+    <section id="education" className="relative py-20 bg-gray-900 overflow-hidden">
+      <ParticleBackground />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-playfair font-bold text-white mb-4">
-            Education & <span className="text-gold">Memberships</span>
+            Education & <span className="text-blue-400">Memberships</span>
           </h2>
-          <div className="w-24 h-1 bg-gold mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-blue-400 mx-auto mb-6"></div>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             My academic journey and professional associations
           </p>
@@ -62,14 +64,14 @@ const Education: React.FC = () => {
           
           <div className="relative">
             {/* Timeline Line */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gold/30 hidden lg:block"></div>
+            <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-blue-400/30 hidden lg:block"></div>
             
             <div className="space-y-8">
               {educationData.map((edu, index) => (
                 <div key={index} className="relative">
                   <div className={`lg:flex items-center ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
                     {/* Timeline Dot */}
-                    <div className="hidden lg:block absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-gold rounded-full z-10"></div>
+                    <div className="hidden lg:block absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-400 rounded-full z-10"></div>
                     
                     {/* Content */}
                     <div className={`lg:w-1/2 ${index % 2 === 0 ? 'lg:pr-8' : 'lg:pl-8'}`}>
@@ -79,7 +81,7 @@ const Education: React.FC = () => {
                         </div>
                         
                         <div className="flex flex-wrap items-center gap-4 mb-4">
-                          <span className="bg-gold/20 text-gold px-3 py-1 rounded-full text-sm font-medium">
+                          <span className="bg-blue-400/20 text-blue-400 px-3 py-1 rounded-full text-sm font-medium">
                             {edu.status}
                           </span>
                           <div className="flex items-center text-gray-400 text-sm">
@@ -92,7 +94,7 @@ const Education: React.FC = () => {
                           {edu.degree}
                         </h4>
                         
-                        <p className="text-gold font-medium mb-2">
+                        <p className="text-blue-400 font-medium mb-2">
                           {edu.institution}
                         </p>
                         
@@ -123,14 +125,14 @@ const Education: React.FC = () => {
             {memberships.map((membership, index) => (
               <div key={index} className="bg-gray-800 rounded-2xl p-6 hover:bg-gray-700 transition-colors duration-300">
                 <div className="flex items-center mb-4">
-                  <div className="p-3 bg-gold/20 rounded-lg mr-4">
-                    <membership.icon className="w-6 h-6 text-gold" />
+                  <div className="p-3 bg-blue-400/20 rounded-lg mr-4">
+                    <membership.icon className="w-6 h-6 text-blue-400" />
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-white">
                       {membership.organization}
                     </h4>
-                    <p className="text-gold text-sm">
+                    <p className="text-blue-400 text-sm">
                       {membership.role}
                     </p>
                   </div>

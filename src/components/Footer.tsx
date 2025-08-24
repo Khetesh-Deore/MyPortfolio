@@ -1,9 +1,11 @@
 import React from 'react';
 import { Heart, Code } from 'lucide-react';
+import ParticleBackground from './ParticleBackground';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-900 text-white py-12">
+    <footer className="relative bg-gray-900 text-white py-12 overflow-hidden">
+      <ParticleBackground />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <div className="mb-6">
@@ -19,7 +21,7 @@ const Footer: React.FC = () => {
             <span>Made with</span>
             <Heart className="w-4 h-4 text-red-500" />
             <span>and</span>
-            <Code className="w-4 h-4 text-gold" />
+            <Code className="w-4 h-4 text-blue-400" />
             <span>by Khetesh Deore</span>
           </div>
           
