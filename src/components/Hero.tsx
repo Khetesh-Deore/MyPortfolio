@@ -72,12 +72,7 @@ const Hero: React.FC = () => {
             </a>
           </div>
           
-          <div className="mt-8">
-            <button className="inline-flex items-center px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
-              <Download className="w-5 h-5 mr-2" />
-              Download Resume
-            </button>
-          </div>
+        
           
           <div className="mt-16">
             <button
