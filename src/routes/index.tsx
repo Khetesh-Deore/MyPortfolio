@@ -560,8 +560,7 @@ function Portfolio() {
       </section>
 
       <footer className="border-t border-border px-6 py-8 text-center font-mono text-xs text-muted-foreground sm:px-10">
-        © {new Date().getFullYear()} {profile.name} · Crafted with React, TanStack
-        Start & Framer Motion.
+        © {new Date().getFullYear()} {profile.name} 
       </footer>
     </div>
   );
