@@ -101,6 +101,19 @@ function Portfolio() {
 
   return (
     <div className="relative min-h-screen overflow-x-hidden">
+      {/* Hidden SEO text — readable by crawlers, invisible to users */}
+      <div className="sr-only" aria-hidden="true">
+        <h1>Khetesh Deore — AI and Full Stack Developer from Nashik, India</h1>
+        <p>
+          Khetesh Samadhan Deore is a B.Tech Computer Engineering student (Honours in Quantum Computing)
+          at K.K. Wagh Institute of Engineering Education and Research, Nashik, Maharashtra, India.
+          He is an AI developer, full stack developer, MERN stack developer, machine learning engineer,
+          and blockchain developer. Smart India Hackathon 2024 Finalist, Innovera National Hackathon 2025
+          Winner, AI Innovation Sprint 2026 2nd Place, E-Cell IIT Bombay NEC 2025 Zonal Finalist,
+          Google Student Ambassador. Contact: khetesh.works@gmail.com
+        </p>
+      </div>
+
       {/* scroll progress */}
       <motion.div
         style={{ scaleX }}
@@ -143,8 +156,10 @@ function Portfolio() {
       </header>
 
       {/* HERO */}
+      <main>
       <section
         id="home"
+        aria-label="Hero — Khetesh Deore, AI & Full Stack Developer"
         className="relative flex min-h-screen items-center px-6 pt-32 sm:px-10"
       >
         <div className="mx-auto grid w-full max-w-6xl gap-12 lg:grid-cols-[1.2fr_1fr] lg:items-center">
@@ -236,7 +251,7 @@ function Portfolio() {
       </section>
 
       {/* ABOUT */}
-      <section id="about" className="px-6 py-24 sm:px-10">
+      <section id="about" aria-label="About Khetesh Deore" className="px-6 py-24 sm:px-10">
         <div className="mx-auto max-w-6xl">
           <SectionTitle icon={Sparkles} kicker="Who I Am" title="About Me" />
           <motion.div
@@ -293,7 +308,7 @@ function Portfolio() {
       </section>
 
       {/* EXPERIENCE */}
-      <section id="experience" className="px-6 py-24 sm:px-10">
+      <section id="experience" aria-label="Work Experience" className="px-6 py-24 sm:px-10">
         <div className="mx-auto max-w-6xl">
           <SectionTitle icon={Briefcase} kicker="Career" title="Experience" />
           <div className="space-y-6">
@@ -340,7 +355,7 @@ function Portfolio() {
       </section>
 
       {/* PROJECTS */}
-      <section id="projects" className="px-6 py-24 sm:px-10">
+      <section id="projects" aria-label="Projects by Khetesh Deore" className="px-6 py-24 sm:px-10">
         <div className="mx-auto max-w-6xl">
           <SectionTitle icon={Code2} kicker="Selected Work" title="Projects" />
           <div className="grid gap-6 md:grid-cols-2">
@@ -402,7 +417,7 @@ function Portfolio() {
       </section>
 
       {/* SKILLS */}
-      <section id="skills" className="px-6 py-24 sm:px-10">
+      <section id="skills" aria-label="Skills and Tech Stack" className="px-6 py-24 sm:px-10">
         <div className="mx-auto max-w-6xl">
           <SectionTitle icon={Sparkles} kicker="Toolkit" title="Skills & Stack" />
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -435,7 +450,7 @@ function Portfolio() {
       </section>
 
       {/* ACHIEVEMENTS */}
-      <section id="achievements" className="px-6 py-24 sm:px-10">
+      <section id="achievements" aria-label="Achievements and Awards" className="px-6 py-24 sm:px-10">
         <div className="mx-auto max-w-6xl">
           <SectionTitle icon={Trophy} kicker="Recognition" title="Achievements" />
           <div className="grid gap-4 md:grid-cols-2">
@@ -518,7 +533,7 @@ function Portfolio() {
       </section>
 
       {/* CONTACT */}
-      <section id="contact" className="px-6 py-24 sm:px-10">
+      <section id="contact" aria-label="Contact Khetesh Deore" className="px-6 py-24 sm:px-10">
         <div className="mx-auto max-w-4xl">
           <motion.div
             initial="hidden"
@@ -558,6 +573,7 @@ function Portfolio() {
           </motion.div>
         </div>
       </section>
+      </main>
 
       <footer className="border-t border-border px-6 py-8 text-center font-mono text-xs text-muted-foreground sm:px-10">
         © {new Date().getFullYear()} {profile.name} 

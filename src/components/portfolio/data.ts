@@ -222,7 +222,6 @@ export const certifications = [
     date: "Apr 2026",
     url: "https://ude.my/UC-7e4b27fc",
   },
-  ,
 ];
 
 export const leadership = [
