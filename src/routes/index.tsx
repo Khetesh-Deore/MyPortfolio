@@ -103,14 +103,18 @@ function Portfolio() {
     <div className="relative min-h-screen overflow-x-hidden">
       {/* Hidden SEO text — readable by crawlers, invisible to users */}
       <div className="sr-only" aria-hidden="true">
-        <h1>Khetesh Deore — AI and Full Stack Developer from Nashik, India</h1>
+        <h1>Khetesh Deore — Official Portfolio</h1>
         <p>
-          Khetesh Samadhan Deore is a B.Tech Computer Engineering student (Honours in Quantum Computing)
-          at K.K. Wagh Institute of Engineering Education and Research, Nashik, Maharashtra, India.
-          He is an AI developer, full stack developer, MERN stack developer, machine learning engineer,
-          and blockchain developer. Smart India Hackathon 2024 Finalist, Innovera National Hackathon 2025
-          Winner, AI Innovation Sprint 2026 2nd Place, E-Cell IIT Bombay NEC 2025 Zonal Finalist,
-          Google Student Ambassador. Contact: khetesh.works@gmail.com
+          Khetesh Deore, also known as Khetesh Samadhan Deore, is an AI and Full Stack Developer
+          from Nashik, Maharashtra, India. He is a third-year B.Tech Computer Engineering student
+          with Honours in Quantum Computing at K.K. Wagh Institute of Engineering Education and
+          Research (KKWIEER), Nashik. Khetesh Deore is a Software Engineer Intern at XMEGA Technologies,
+          Smart India Hackathon 2024 Finalist, Innovera National Hackathon 2025 Winner (1st Place),
+          AI Innovation Sprint 2026 2nd Place, E-Cell IIT Bombay NEC 2025 Zonal Finalist (Top 500
+          of 15,000+ teams), and Google Student Ambassador. He specialises in MERN stack, React.js,
+          Node.js, Python, TypeScript, Machine Learning, Blockchain, Solidity, and system design.
+          Contact Khetesh Deore at khetesh.works@gmail.com. GitHub: github.com/Khetesh-Deore.
+          LinkedIn: linkedin.com/in/khetesh-deore. Portfolio: kheteshdeore.me.
         </p>
       </div>
 
