@@ -4,6 +4,7 @@ export const profile = {
   tagline: "Building impactful systems at the intersection of AI  MERN .",
   location: "Nashik, Maharashtra, India",
   email: "khetesh.works@gmail.com",
+  emailUrl: "https://mail.google.com/mail/?view=cm&to=khetesh.works@gmail.com",
   altEmail: "kheteshsamadhandeore@gmail.com",
   phone: "+91 9529178362",
   links: {
@@ -39,13 +40,13 @@ export const education = [
 ];
 
 export const skills = {
-  Languages: ["C++", "Python", "JavaScript", "TypeScript", "Solidity"],
-  Frontend: ["React.js", "Next.js", "Tailwind CSS", "HTML", "CSS"],
+  Languages: ["C++", "Python", "JavaScript"],
+  Frontend: ["React.js", "Tailwind CSS", "HTML", "CSS"],
   Backend: ["Node.js", "Express.js", "FastAPI", "REST APIs"],
-  Database: ["MongoDB", "MySQL", "Neo4j", "ChromaDB"],
+  Database: ["MongoDB", "MySQL"],
   "AI / ML": ["TensorFlow", "PyTorch", "LangGraph", "OpenCV", "RAG / LLMs"],
   DevOps: ["Docker", "Git", "GitHub", "Vercel", "AWS"],
-  Concepts: ["DSA", "OOP", "DBMS", "OS", "CN", "System Design"],
+  Concepts: ["DSA", "OOP", "DBMS", "OS", "CN"],
 };
 
 export const experience = [
@@ -53,7 +54,7 @@ export const experience = [
     company: "XMEGA Technologies",
     role: "Software Engineer Intern",
     period: "Dec 2025 – Present",
-    url: "https://www.linkedin.com/company/xmega/",
+    url: "https://xmega.in/",
     bullets: [
       "Delivered scalable MERN-based applications, enhancing performance and maintainability of production systems.",
       "Leveraged Machine Learning techniques to streamline workflows and support data-driven decision making.",
@@ -63,35 +64,7 @@ export const experience = [
 ];
 
 export const projects = [
-  {
-    name: "UdyamiAI",
-    tag: "AI MSME Platform",
-    period: "Jan 2026 – Present",
-    role: "Backend Developer",
-    url: "https://udyami-ai-msme.vercel.app",
-    description:
-      "AI-powered platform empowering MSMEs with intelligent business insights, automated workflows and data-driven decision support.",
-    tech: ["Next.js", "Node.js", "Python", "AI/ML", "MongoDB"],
-    highlights: [
-      "Architected backend services and AI pipelines for MSME workflow automation.",
-      "Designed scalable APIs and data models for analytics and recommendations.",
-    ],
-  },
-  {
-    name: "Arthankur",
-    tag: "Funding Platform · Hackathon Winner",
-    period: "Oct – Dec 2025",
-    role: "Full Stack Developer",
-    url: "https://frontend-arthankur.vercel.app",
-    description:
-      "Funding platform connecting startups & investors. Won Innovera National Hackathon 2025.",
-    tech: ["React", "Node.js", "Express", "MongoDB"],
-    highlights: [
-      "Built end-to-end funding workflows, investor matching and pitch dashboards.",
-      "Won 1st place at Innovera National Hackathon 2025.",
-    ],
-  },
-  {
+    {
     name: "DevFlow",
     tag: "Coding Contest Platform",
     period: "Feb – Apr 2026",
@@ -164,6 +137,36 @@ export const projects = [
     ],
   },
   {
+    name: "UdyamiAI",
+    tag: "AI MSME Platform",
+    period: "Jan 2026 – Present",
+    role: "Backend Developer",
+    url: "https://udyami-ai-msme.vercel.app",
+    description:
+      "AI-powered platform empowering MSMEs with intelligent business insights, automated workflows and data-driven decision support.",
+    tech: ["Next.js", "Node.js", "Python", "AI/ML", "MongoDB"],
+    highlights: [
+      "Architected backend services and AI pipelines for MSME workflow automation.",
+      "Designed scalable APIs and data models for analytics and recommendations.",
+    ],
+  },
+  {
+    name: "Arthankur",
+    tag: "Funding Platform · Hackathon Winner",
+    period: "Oct – Dec 2025",
+    role: "Full Stack Developer",
+    url: "https://frontend-arthankur.vercel.app",
+    description:
+      "Funding platform connecting startups & investors. Won Innovera National Hackathon 2025.",
+    tech: ["React", "Node.js", "Express", "MongoDB"],
+    highlights: [
+      "Built end-to-end funding workflows, investor matching and pitch dashboards.",
+      "Won 1st place at Innovera National Hackathon 2025.",
+    ],
+  },
+
+  
+  {
     name: "Antenna Optimization",
     tag: "Engineering Tool",
     period: "2026",
@@ -178,6 +181,11 @@ export const projects = [
 ];
 
 export const achievements = [
+  {
+    title: "SRiJAN 2026 — Winner (Digital Apps Track) by ATOS",
+    detail:
+      "Team DHE developed an AI-driven AIOps solution for intelligent application support and operations automation.",
+  },
   {
     title: "AI Innovation Sprint 2026 — 2nd Place",
     detail:

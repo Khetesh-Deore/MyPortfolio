@@ -151,7 +151,7 @@ function Portfolio() {
             ))}
           </ul>
           <a
-            href={`mailto:${profile.email}`}
+            href={profile.emailUrl}
             className="inline-flex items-center gap-1.5 rounded-full bg-gradient-hero px-4 py-1.5 text-xs font-semibold text-primary-foreground shadow-neon transition-transform hover:scale-105"
           >
             Hire Me <ArrowRight className="h-3 w-3" />
@@ -195,7 +195,7 @@ function Portfolio() {
                 View Projects <ArrowRight className="h-4 w-4" />
               </a>
               <a
-                href={`mailto:${profile.email}`}
+                href={profile.emailUrl}
                 className="inline-flex items-center gap-2 rounded-full border border-border bg-card/40 px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:border-primary/60 hover:text-primary"
               >
                 <Download className="h-4 w-4" /> Get in Touch
@@ -207,7 +207,7 @@ function Portfolio() {
                 { icon: Linkedin, href: profile.links.linkedin },
                 { icon: Code2, href: profile.links.leetcode },
                 { icon: FileCode, href: profile.links.codeforces },
-                { icon: Mail, href: `mailto:${profile.email}` },
+                { icon: Mail, href: profile.emailUrl },
               ].map(({ icon: Icon, href }, i) => (
                 <a
                   key={i}
@@ -559,7 +559,9 @@ function Portfolio() {
             </p>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
               <a
-                href={`mailto:${profile.email}`}
+                href={profile.emailUrl}
+                target="_blank"
+                rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-gradient-hero px-6 py-3 text-sm font-semibold text-primary-foreground shadow-neon transition-transform hover:scale-105"
               >
                 <Mail className="h-4 w-4" /> {profile.email}
