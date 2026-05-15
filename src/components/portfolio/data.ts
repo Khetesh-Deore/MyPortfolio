@@ -273,12 +273,13 @@ export const gallery = [
     url: "https://media.licdn.com/dms/image/v2/D4D22AQE0j3vGbx7sPg/feedshare-shrink_800/B4DZoBZmtnIgAg-/0/1760960093457?e=1780531200&v=beta&t=aC_HaL4p9c-RSebMT0TkHzyh-Rc2t3b0K8bwwqsOh20",
     caption: "",
   },
+  
   {
-    url: "https://media.licdn.com/dms/image/v2/D4D22AQHsNrV_Gza1-w/feedshare-shrink_1280/B4DZVfgquTHwAk-/0/1741064157534?e=1780531200&v=beta&t=pOOnCl0EBjWOdMj3G0D7wSWEYardxtIW6YOo0dS9KMo",
+    url: "https://media.licdn.com/dms/image/v2/D5622AQEAm5WWWXTwEA/feedshare-shrink_480/B56Znt_XObHQAc-/0/1760634436009?e=1780531200&v=beta&t=qmiQVpSZixT87LGGwmZsf6VovbRw-SZ_nTeMqj1QkqY",
     caption: "",
   },
   {
-    url: "https://media.licdn.com/dms/image/v2/D5622AQEAm5WWWXTwEA/feedshare-shrink_480/B56Znt_XObHQAc-/0/1760634436009?e=1780531200&v=beta&t=qmiQVpSZixT87LGGwmZsf6VovbRw-SZ_nTeMqj1QkqY",
+    url: "https://media.licdn.com/dms/image/v2/D4D22AQHsNrV_Gza1-w/feedshare-shrink_1280/B4DZVfgquTHwAk-/0/1741064157534?e=1780531200&v=beta&t=pOOnCl0EBjWOdMj3G0D7wSWEYardxtIW6YOo0dS9KMo",
     caption: "",
   },
   {
@@ -289,21 +290,22 @@ export const gallery = [
     url: "https://media.licdn.com/dms/image/v2/D4D22AQGGIALdB5wFrg/feedshare-shrink_800/B4DZiplb5OHsAk-/0/1755191822029?e=1780531200&v=beta&t=zEWM1HEtgDoaJ088di8upSa7U49SXH1Gt9EFKjSMh7I",
     caption: "",
   },
-  {
-    url: "https://media.licdn.com/dms/image/v2/D4D22AQHsNrV_Gza1-w/feedshare-shrink_1280/B4DZVfgquTHwAk-/0/1741064157534?e=1780531200&v=beta&t=pOOnCl0EBjWOdMj3G0D7wSWEYardxtIW6YOo0dS9KMo",
-    caption: "",
-  },
+  // {
+  //   url: "https://media.licdn.com/dms/image/v2/D4D22AQHsNrV_Gza1-w/feedshare-shrink_1280/B4DZVfgquTHwAk-/0/1741064157534?e=1780531200&v=beta&t=pOOnCl0EBjWOdMj3G0D7wSWEYardxtIW6YOo0dS9KMo",
+  //   caption: "8",
+  // },
   
-   {
-    url: "https://media.licdn.com/dms/image/v2/D4D22AQEMFxuszmDDdA/feedshare-image-high-res/B4DZPDnPaOHUA0-/0/1734153937111?e=1780531200&v=beta&t=DFQ2rQs2wzz7Z07Qc_Cspw4gpiior7aYxF2qjaI0b9U",
-    caption: "",
-  },
+   
   {
     url: "https://media.licdn.com/dms/image/v2/D4D22AQEaaUVQbzH0ow/feedshare-image-high-res/B4DZl8fSZzJUAo-/0/1758730211284?e=1780531200&v=beta&t=P9kfzMGndE_YTjYxkdK0lTd-e5spoDx1MiICoTwYtRE",
     caption: "",
   },
    {
     url: "https://media.licdn.com/dms/image/v2/D5622AQEjyo0GC8877Q/feedshare-shrink_800/B56ZYViRv2H0Ag-/0/1744118053095?e=1780531200&v=beta&t=sqytptKFBxl8YUDqjW0eQ-VIs3zKaDBrZgKeB-mOOzU",
+    caption: "",
+  },
+  {
+    url: "https://media.licdn.com/dms/image/v2/D4D22AQEMFxuszmDDdA/feedshare-image-high-res/B4DZPDnPaOHUA0-/0/1734153937111?e=1780531200&v=beta&t=DFQ2rQs2wzz7Z07Qc_Cspw4gpiior7aYxF2qjaI0b9U",
     caption: "",
   },
   {
