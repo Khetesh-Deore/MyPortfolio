@@ -150,12 +150,24 @@ function Portfolio() {
               </li>
             ))}
           </ul>
-          <a
-            href={profile.emailUrl}
-            className="inline-flex items-center gap-1.5 rounded-full bg-gradient-hero px-4 py-1.5 text-xs font-semibold text-primary-foreground shadow-neon transition-transform hover:scale-105"
-          >
-            Hire Me <ArrowRight className="h-3 w-3" />
-          </a>
+          <div className="flex items-center gap-2">
+            <a
+              href={profile.links.resume}
+              target="_blank"
+              rel="noreferrer"
+              className="hidden sm:inline-flex items-center gap-1.5 rounded-full border border-primary/50 bg-primary/10 px-4 py-1.5 text-xs font-semibold text-primary transition-all hover:bg-primary/20 hover:scale-105"
+            >
+              <Download className="h-3 w-3" /> Resume
+            </a>
+            <a
+              href={profile.emailUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-full bg-gradient-hero px-4 py-1.5 text-xs font-semibold text-primary-foreground shadow-neon transition-transform hover:scale-105"
+            >
+              Hire Me <ArrowRight className="h-3 w-3" />
+            </a>
+          </div>
         </nav>
       </header>
 
@@ -195,10 +207,20 @@ function Portfolio() {
                 View Projects <ArrowRight className="h-4 w-4" />
               </a>
               <a
+                href={profile.links.resume}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 rounded-full border border-primary/60 bg-primary/10 px-6 py-3 text-sm font-semibold text-primary transition-all hover:bg-primary/20 hover:scale-105"
+              >
+                <Download className="h-4 w-4" /> Resume
+              </a>
+              <a
                 href={profile.emailUrl}
+                target="_blank"
+                rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border border-border bg-card/40 px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:border-primary/60 hover:text-primary"
               >
-                <Download className="h-4 w-4" /> Get in Touch
+                <Mail className="h-4 w-4" /> Get in Touch
               </a>
             </div>
             <div className="flex items-center gap-4 pt-4">
@@ -565,6 +587,14 @@ function Portfolio() {
                 className="inline-flex items-center gap-2 rounded-full bg-gradient-hero px-6 py-3 text-sm font-semibold text-primary-foreground shadow-neon transition-transform hover:scale-105"
               >
                 <Mail className="h-4 w-4" /> {profile.email}
+              </a>
+              <a
+                href={profile.links.resume}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 rounded-full border border-primary/60 bg-primary/10 px-6 py-3 text-sm font-semibold text-primary transition-all hover:bg-primary/20 hover:scale-105"
+              >
+                <Download className="h-4 w-4" /> Download Resume
               </a>
               <a
                 href={`tel:${profile.phone.replace(/\s/g, "")}`}
