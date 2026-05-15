@@ -259,3 +259,55 @@ export const leadership = [
     detail: "Active in leadership and networking initiatives.",
   },
 ];
+
+export const gallery = [
+  {
+    url: "https://media.licdn.com/dms/image/v2/D4D22AQE8WW2JdlkiYw/feedshare-shrink_1280/B4DZwaSt0ZLAAc-/0/1769967640556?e=1780531200&v=beta&t=F4ymdiWBVY3bM1oxLZ_p5ZB5932Fv2qFF6zxB8agCQE",
+    caption: "1",
+  },
+  {
+    url: "https://media.licdn.com/dms/image/v2/D4D22AQGOrtCxy4hlhg/feedshare-shrink_1280/B4DZwaStXrJ0Ac-/0/1769967638621?e=1780531200&v=beta&t=KMiqQxEqwSZ4X6kNb8Q0QQaBwWpCdrEVKCp8MDWhzDg",
+    caption: "2",
+  },
+  {
+    url: "https://media.licdn.com/dms/image/v2/D4D22AQE0j3vGbx7sPg/feedshare-shrink_800/B4DZoBZmtnIgAg-/0/1760960093457?e=1780531200&v=beta&t=aC_HaL4p9c-RSebMT0TkHzyh-Rc2t3b0K8bwwqsOh20",
+    caption: "3",
+  },
+  {
+    url: "https://media.licdn.com/dms/image/v2/D4D22AQHsNrV_Gza1-w/feedshare-shrink_1280/B4DZVfgquTHwAk-/0/1741064157534?e=1780531200&v=beta&t=pOOnCl0EBjWOdMj3G0D7wSWEYardxtIW6YOo0dS9KMo",
+    caption: "7",
+  },
+  {
+    url: "https://media.licdn.com/dms/image/v2/D5622AQEAm5WWWXTwEA/feedshare-shrink_480/B56Znt_XObHQAc-/0/1760634436009?e=1780531200&v=beta&t=qmiQVpSZixT87LGGwmZsf6VovbRw-SZ_nTeMqj1QkqY",
+    caption: "4",
+  },
+  {
+    url: "https://media.licdn.com/dms/image/v2/D4D22AQFqIP0V73pHqg/feedshare-shrink_800/B4DZmVvxbvIcAg-/0/1759153955273?e=1780531200&v=beta&t=J9L2rCBrjB1wHKbKnjpE00LnHS5J0APBbAzYrxE0360",
+    caption: "5",
+  },
+  {
+    url: "https://media.licdn.com/dms/image/v2/D4D22AQGGIALdB5wFrg/feedshare-shrink_800/B4DZiplb5OHsAk-/0/1755191822029?e=1780531200&v=beta&t=zEWM1HEtgDoaJ088di8upSa7U49SXH1Gt9EFKjSMh7I",
+    caption: "6",
+  },
+  {
+    url: "https://media.licdn.com/dms/image/v2/D4D22AQHsNrV_Gza1-w/feedshare-shrink_1280/B4DZVfgquTHwAk-/0/1741064157534?e=1780531200&v=beta&t=pOOnCl0EBjWOdMj3G0D7wSWEYardxtIW6YOo0dS9KMo",
+    caption: "7",
+  },
+  
+   {
+    url: "https://media.licdn.com/dms/image/v2/D4D22AQEMFxuszmDDdA/feedshare-image-high-res/B4DZPDnPaOHUA0-/0/1734153937111?e=1780531200&v=beta&t=DFQ2rQs2wzz7Z07Qc_Cspw4gpiior7aYxF2qjaI0b9U",
+    caption: "9",
+  },
+  {
+    url: "https://media.licdn.com/dms/image/v2/D4D22AQEaaUVQbzH0ow/feedshare-image-high-res/B4DZl8fSZzJUAo-/0/1758730211284?e=1780531200&v=beta&t=P9kfzMGndE_YTjYxkdK0lTd-e5spoDx1MiICoTwYtRE",
+    caption: "10",
+  },
+   {
+    url: "https://media.licdn.com/dms/image/v2/D5622AQEjyo0GC8877Q/feedshare-shrink_800/B56ZYViRv2H0Ag-/0/1744118053095?e=1780531200&v=beta&t=sqytptKFBxl8YUDqjW0eQ-VIs3zKaDBrZgKeB-mOOzU",
+    caption: "11",
+  },
+  {
+    url: "https://media.licdn.com/dms/image/v2/D4D22AQEazA9OrfQHbw/feedshare-image-high-res/B4DZ2QJOSQI8AU-/0/1776239830833?e=1780531200&v=beta&t=h59ntLuqE2kP10l3cnQC3l_blyUHKb1uUKxqM9Ys4aQ",
+    caption: "12",
+  },
+];
