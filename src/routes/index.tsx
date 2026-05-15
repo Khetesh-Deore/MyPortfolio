@@ -244,14 +244,49 @@ function Portfolio() {
             </div>
           </motion.div>
 
-          {/* code card */}
+          {/* profile photo + code card */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9, rotate: -2 }}
             animate={{ opacity: 1, scale: 1, rotate: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="relative"
+            className="relative flex flex-col gap-5"
           >
-            <div className="absolute inset-0 -z-10 rounded-3xl bg-gradient-hero opacity-30 blur-3xl" />
+            {/* ambient glow */}
+            <div className="absolute inset-0 -z-10 rounded-3xl bg-gradient-hero opacity-20 blur-3xl" />
+
+            {/* Photo card */}
+            <div className="relative overflow-hidden rounded-3xl border border-border bg-card/60 shadow-card">
+              {/* glow top accent */}
+              <div className="absolute inset-x-0 top-0 h-px bg-gradient-hero opacity-80" />
+
+              <img
+                src={profile.photo}
+                alt="Khetesh Deore — AI & Full Stack Developer"
+                className="h-80 w-full object-cover object-top sm:h-96"
+              />
+
+              {/* name overlay at bottom */}
+              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-background/95 via-background/60 to-transparent px-6 pb-5 pt-12">
+                <div className="flex items-end justify-between">
+                  <div>
+                    <p className="font-mono text-[11px] uppercase tracking-widest text-accent">
+                      {profile.location}
+                    </p>
+                    <h2 className="text-xl font-bold text-foreground">
+                      {profile.name}
+                    </h2>
+                    <p className="text-sm text-primary">{profile.role}</p>
+                  </div>
+                  {/* available badge */}
+                  <div className="flex items-center gap-1.5 rounded-full border border-green-500/40 bg-green-500/10 px-3 py-1 text-[11px] font-medium text-green-400">
+                    <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-green-400" />
+                    Open to work
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* code card */}
             <div className="overflow-hidden rounded-2xl border border-border bg-card/80 shadow-card">
               <div className="flex items-center gap-2 border-b border-border bg-card px-4 py-3">
                 <span className="h-3 w-3 rounded-full bg-destructive" />
