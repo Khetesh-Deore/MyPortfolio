@@ -66,12 +66,13 @@ export const experience = [
 ];
 
 export const projects = [
-    {
+  {
     name: "DevFlow",
     tag: "Coding Contest Platform",
     period: "Feb – Apr 2026",
     role: "Full Stack Developer",
     url: "https://devflow26.vercel.app",
+    image: "https://api.microlink.io/?url=https://devflow26.vercel.app&screenshot=true&meta=false&embed=screenshot.url",
     description:
       "Coding contest platform with real-time leaderboards, secure online judge and proctoring features.",
     tech: ["React", "Node.js", "FastAPI", "Docker", "MongoDB"],
@@ -87,6 +88,7 @@ export const projects = [
     period: "Mar – Apr 2026",
     role: "Full Stack Developer",
     url: "https://evote-face.vercel.app",
+    image: "https://api.microlink.io/?url=https://evote-face.vercel.app&screenshot=true&meta=false&embed=screenshot.url",
     description:
       "Blockchain-based voting platform with three-factor authentication: MetaMask, AI face recognition and OTP.",
     tech: ["Solidity", "React", "Python", "OpenCV", "Web3.js"],
@@ -102,6 +104,7 @@ export const projects = [
     period: "Mar – Apr 2026",
     role: "Full Stack Developer",
     url: "https://atlas-dhe.vercel.app",
+    image: "https://api.microlink.io/?url=https://atlas-dhe.vercel.app&screenshot=true&meta=false&embed=screenshot.url",
     description:
       "AI-driven AIOps platform for incident detection and root-cause analysis using FastAPI, React and LangGraph.",
     tech: ["FastAPI", "React", "LangGraph", "Neo4j", "ChromaDB"],
@@ -116,6 +119,7 @@ export const projects = [
     period: "2025",
     role: "ML Developer",
     url: "https://skin-guard-ml.vercel.app",
+    image: "https://api.microlink.io/?url=https://skin-guard-ml.vercel.app&screenshot=true&meta=false&embed=screenshot.url",
     description:
       "Machine learning powered skin disease detection and health insights platform.",
     tech: ["Python", "TensorFlow", "React", "Flask"],
@@ -130,6 +134,7 @@ export const projects = [
     period: "2025",
     role: "Frontend Developer",
     url: "https://adishri-enterprises.vercel.app",
+    image: "https://api.microlink.io/?url=https://adishri-enterprises.vercel.app&screenshot=true&meta=false&embed=screenshot.url",
     description:
       "Responsive business website showcasing products and services for a local enterprise.",
     tech: ["React", "JavaScript", "Tailwind CSS"],
@@ -144,6 +149,7 @@ export const projects = [
     period: "Jan 2026 – Present",
     role: "Backend Developer",
     url: "https://udyami-ai-msme.vercel.app",
+    image: "https://api.microlink.io/?url=https://udyami-ai-msme.vercel.app&screenshot=true&meta=false&embed=screenshot.url",
     description:
       "AI-powered platform empowering MSMEs with intelligent business insights, automated workflows and data-driven decision support.",
     tech: ["Next.js", "Node.js", "Python", "AI/ML", "MongoDB"],
@@ -158,6 +164,7 @@ export const projects = [
     period: "Oct – Dec 2025",
     role: "Full Stack Developer",
     url: "https://frontend-arthankur.vercel.app",
+    image: "https://api.microlink.io/?url=https://frontend-arthankur.vercel.app&screenshot=true&meta=false&embed=screenshot.url",
     description:
       "Funding platform connecting startups & investors. Won Innovera National Hackathon 2025.",
     tech: ["React", "Node.js", "Express", "MongoDB"],
@@ -166,20 +173,18 @@ export const projects = [
       "Won 1st place at Innovera National Hackathon 2025.",
     ],
   },
-
-  
   {
     name: "Antenna Optimization",
     tag: "Engineering Tool",
     period: "2026",
     role: "Developer",
     url: "https://antenna-optimization.vercel.app",
+    image: "https://api.microlink.io/?url=https://antenna-optimization.vercel.app&screenshot=true&meta=false&embed=screenshot.url",
     description:
       "Antenna design and optimization toolkit with simulation and parameter tuning.",
     tech: ["React", "Python", "Numerical Computing"],
     highlights: ["Interactive simulation dashboard for antenna parameters."],
   },
-  
 ];
 
 export const achievements = [

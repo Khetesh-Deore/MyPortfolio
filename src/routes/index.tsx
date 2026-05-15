@@ -301,7 +301,7 @@ function Portfolio() {
   name: "${profile.name}",
   role: "${profile.role}",
   location: "${profile.location}",
-  stack: ["MERN", "AI/ML", "Blockchain"],
+  stack: ["MERN", "AI/ML"],
   cgpa: 8.84,
   passion: () => "build > talk",
 };`}
@@ -431,45 +431,76 @@ function Portfolio() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: (idx % 2) * 0.1 }}
                 whileHover={{ y: -6 }}
-                className="group relative flex flex-col overflow-hidden rounded-2xl border border-border bg-card-gradient p-6 shadow-card transition-all hover:border-primary/60 hover:shadow-neon"
+                className="group relative flex flex-col overflow-hidden rounded-2xl border border-border bg-card-gradient shadow-card transition-all hover:border-primary/60 hover:shadow-neon"
               >
+                {/* top gradient accent line */}
                 <div className="absolute inset-x-0 top-0 h-px bg-gradient-hero opacity-0 transition-opacity group-hover:opacity-100" />
-                <div className="flex items-start justify-between">
-                  <div>
-                    <div className="font-mono text-[11px] uppercase tracking-widest text-accent">
-                      {p.tag}
-                    </div>
-                    <h3 className="mt-1 text-xl font-bold">{p.name}</h3>
-                  </div>
-                  <ExternalLink className="h-4 w-4 text-muted-foreground transition-colors group-hover:text-primary" />
-                </div>
-                <p className="mt-3 text-sm text-muted-foreground">
-                  {p.description}
-                </p>
-                <ul className="mt-4 space-y-1.5">
-                  {p.highlights.map((h, i) => (
-                    <li
-                      key={i}
-                      className="flex gap-2 text-xs text-muted-foreground"
-                    >
-                      <span className="mt-1 h-1 w-1 shrink-0 rounded-full bg-accent" />
-                      {h}
-                    </li>
-                  ))}
-                </ul>
-                <div className="mt-auto flex flex-wrap gap-1.5 pt-5">
-                  {p.tech.map((t) => (
-                    <span
-                      key={t}
-                      className="rounded-md border border-border bg-background/50 px-2 py-0.5 font-mono text-[10px] text-muted-foreground"
-                    >
-                      {t}
+
+                {/* screenshot / preview */}
+                <div className="relative overflow-hidden border-b border-border bg-card">
+                  {/* browser chrome bar */}
+                  <div className="flex items-center gap-1.5 bg-card/80 px-3 py-2">
+                    <span className="h-2.5 w-2.5 rounded-full bg-destructive/70" />
+                    <span className="h-2.5 w-2.5 rounded-full bg-yellow-500/70" />
+                    <span className="h-2.5 w-2.5 rounded-full bg-green-500/70" />
+                    <span className="ml-2 flex-1 rounded bg-background/40 px-2 py-0.5 font-mono text-[10px] text-muted-foreground truncate">
+                      {p.url.replace("https://", "")}
                     </span>
-                  ))}
+                    <ExternalLink className="h-3 w-3 shrink-0 text-muted-foreground transition-colors group-hover:text-primary" />
+                  </div>
+                  {/* screenshot image */}
+                  <div className="relative h-44 overflow-hidden bg-background/60">
+                    <img
+                      src={p.image}
+                      alt={`${p.name} — ${p.tag}`}
+                      className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                      loading="lazy"
+                      onError={(e) => {
+                        (e.currentTarget as HTMLImageElement).style.display = "none";
+                      }}
+                    />
+                    {/* overlay on hover */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
+                  </div>
                 </div>
-                <div className="mt-3 flex items-center justify-between font-mono text-[10px] uppercase tracking-wider text-muted-foreground">
-                  <span>{p.role}</span>
-                  <span>{p.period}</span>
+
+                {/* card body */}
+                <div className="flex flex-1 flex-col p-5">
+                  <div className="flex items-start justify-between gap-2">
+                    <div>
+                      <div className="font-mono text-[11px] uppercase tracking-widest text-accent">
+                        {p.tag}
+                      </div>
+                      <h3 className="mt-0.5 text-lg font-bold">{p.name}</h3>
+                    </div>
+                  </div>
+                  <p className="mt-2 text-sm text-muted-foreground line-clamp-2">
+                    {p.description}
+                  </p>
+                  <ul className="mt-3 space-y-1">
+                    {p.highlights.map((h, i) => (
+                      <li key={i} className="flex gap-2 text-xs text-muted-foreground">
+                        <span className="mt-1 h-1 w-1 shrink-0 rounded-full bg-accent" />
+                        {h}
+                      </li>
+                    ))}
+                  </ul>
+                  <div className="mt-auto pt-4">
+                    <div className="flex flex-wrap gap-1.5">
+                      {p.tech.map((t) => (
+                        <span
+                          key={t}
+                          className="rounded-md border border-border bg-background/50 px-2 py-0.5 font-mono text-[10px] text-muted-foreground"
+                        >
+                          {t}
+                        </span>
+                      ))}
+                    </div>
+                    <div className="mt-3 flex items-center justify-between font-mono text-[10px] uppercase tracking-wider text-muted-foreground">
+                      <span>{p.role}</span>
+                      <span>{p.period}</span>
+                    </div>
+                  </div>
                 </div>
               </motion.a>
             ))}
