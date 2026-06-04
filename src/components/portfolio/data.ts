@@ -5,7 +5,7 @@ export const profile = {
   location: "Nashik, Maharashtra, India",
   email: "khetesh.works@gmail.com",
   emailUrl: "https://mail.google.com/mail/?view=cm&to=khetesh.works@gmail.com",
-  photo: "https://media.licdn.com/dms/image/v2/D4D03AQEg7KhiTTuIDQ/profile-displayphoto-crop_800_800/B4DZlJ0chZJcAQ-/0/1757880118921?e=1780531200&v=beta&t=gKDWZgy_hNeD5S-qnnNInM9oBVUJvM17KIUTIBCwsXQ",
+  photo: "https://media.licdn.com/dms/image/v2/D4D03AQEg7KhiTTuIDQ/profile-displayphoto-crop_800_800/B4DZlJ0chZJcAQ-/0/1757880118921?e=1782345600&v=beta&t=qTt18J-U4tg9mgBlUZu3OO-6pXBUQo_lrLYyYx4tN9I",
   altEmail: "kheteshsamadhandeore@gmail.com",
   phone: "+91 9529178362",
   links: {
