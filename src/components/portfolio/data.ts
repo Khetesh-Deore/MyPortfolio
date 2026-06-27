@@ -25,7 +25,7 @@ export const education = [
     school: "K.K. Wagh Institute of Engineering Education and Research, Nashik,India",
     degree: "B.Tech in Computer Engineering (Honours in Quantum Computing)",
     period: "2023 – 2027",
-    score: "CGPA: 8.84 / 10",
+    score: "CGPA: 8.77 / 10",
   },
   {
     school: "K.A.A.N.M. Sonawane College, Satana, Nashik",
