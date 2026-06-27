@@ -17,12 +17,12 @@ export const profile = {
     resume: "https://d8it4huxumps7.cloudfront.net/uploads/profileData/files/1682701-12135620/6a070f6756621_khetesh_deore_resume.pdf",
   },
   summary:
-    "Third-year B.Tech Computer Engineering student (Honours in Quantum Computing) at K.K. Wagh Institute, Nashik. Proficient in C++, Python and JavaScript with strong experience building scalable full-stack systems using the MERN stack — focused on system design, performance optimization, and real-time architectures. Demonstrated impact through national hackathons and production-grade projects delivering secure, efficient solutions.",
+    "Final-Year B.Tech Computer Engineering student (Honours in Quantum Computing) at K.K. Wagh Institute, Nashik. Proficient in C++, Python and JavaScript with strong experience building scalable full-stack systems using the MERN stack — focused on system design, performance optimization, and real-time architectures. Demonstrated impact through national hackathons and production-grade projects delivering secure, efficient solutions.",
 };
 
 export const education = [
   {
-    school: "K.K. Wagh Institute of Engineering Education and Research, Nashik",
+    school: "K.K. Wagh Institute of Engineering Education and Research, Nashik,India",
     degree: "B.Tech in Computer Engineering (Honours in Quantum Computing)",
     period: "2023 – 2027",
     score: "CGPA: 8.84 / 10",
@@ -55,7 +55,7 @@ export const experience = [
   {
     company: "XMEGA Technologies",
     role: "Software Engineer Intern",
-    period: "Dec 2025 – Present",
+    period: "Dec 2025 – June 2026",
     url: "https://xmega.in/",
     bullets: [
       "Delivered scalable MERN-based applications, enhancing performance and maintainability of production systems.",
@@ -196,7 +196,7 @@ export const achievements = [
   {
     title: "AI Innovation Sprint 2026 — 2nd Place",
     detail:
-      "LLM/RAG solution selected for Govt. of India YUKTI repository (out of 20 teams).",
+      "LLM/RAG solution selected for Govt. of India YUKTI repository.",
   },
   {
     title: "E-Cell IIT Bombay NEC 2025 — Zonal Finalist",
