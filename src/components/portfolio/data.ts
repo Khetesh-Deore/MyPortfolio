@@ -235,7 +235,7 @@ export const certifications = [
     title: "Complete Data Science, ML, DL, NLP Bootcamp (99 hrs)",
     issuer: "Udemy",
     date: "Apr 2026",
-    url: "https://ude.my/UC-7e4b27fc",
+    url: "https://www.udemy.com/certificate/UC-7e4b27fc-5393-453a-9e91-82e8eef9d158/",
   },
 ];
 
