@@ -14,7 +14,7 @@ export const profile = {
     leetcode: "https://leetcode.com/u/Deore_Khetesh/",
     codeforces: "https://codeforces.com/profile/kheteshsamadhandeore",
     portfolio: "https://kheteshdeore.me",
-    resume: "https://d8it4huxumps7.cloudfront.net/uploads/profileData/files/1682701-12135620/6a070f6756621_khetesh_deore_resume.pdf",
+    resume: "https://d8it4huxumps7.cloudfront.net/uploads/attachements/user-resumes/6a45e0ec6c8a9_Khetesh_Deore__Resume___1_.pdf",
   },
   summary:
     "Final-Year B.Tech Computer Engineering student (Honours in Quantum Computing) at K.K. Wagh Institute, Nashik. Proficient in C++, Python and JavaScript with strong experience building scalable full-stack systems using the MERN stack — focused on system design, performance optimization, and real-time architectures. Demonstrated impact through national hackathons and production-grade projects delivering secure, efficient solutions.",
