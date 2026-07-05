@@ -336,7 +336,7 @@ function Portfolio() {
               </p>
               <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-4">
                 {[
-                  { v: "8.84", l: "CGPA" },
+                  { v: "8.77", l: "CGPA" },
                   { v: "9+", l: "Projects" },
                   { v: "7+", l: "Awards" },
                   { v: "3+", l: "Hackathons" },
